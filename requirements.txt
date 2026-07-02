@@ -1,4 +1,7 @@
 streamlit
 music21
-tensorflow
+# TensorFlow: stable release for Python <= 3.13; pre-release pin for 3.14+
+# (3.14 wheels are only published as 2.21.0rc1 so far)
+tensorflow==2.21.0; python_version < "3.14"
+tensorflow==2.21.0rc1; python_version >= "3.14"
 numpy
