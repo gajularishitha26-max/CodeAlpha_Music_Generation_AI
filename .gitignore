@@ -1,0 +1,29 @@
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Trained models & generated audio/video (too large / regenerable).
+# Demo .mid files in data/midi/ ARE committed (tiny, needed for smoke test).
+*.keras
+*.h5
+*.pt
+*.mp4
+*.avi
+*.mov
+models/*
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

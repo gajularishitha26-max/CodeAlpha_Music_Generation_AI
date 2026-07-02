@@ -1,0 +1,2 @@
+# Placeholder so the empty models/ directory is tracked by git.
+# The trained model (music_lstm.keras) and vocab.json are written here.
